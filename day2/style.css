@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(199, 25, 159),rgb(29, 26, 221));
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(29, 29, 29, 0.5);
+  padding: 28px;
+  margin: 28px;
+  border-radius: 10px;
+}
+
+.biodata {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6px;
+  color: white;
+}
+
+.kotak {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px ;
+}
+.woi {
+  border-radius: 10px;
+  height: 30px;
+  padding: 10px;
+  border-style: none;
+}
+.submit {
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  border-style: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.submit-a {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
